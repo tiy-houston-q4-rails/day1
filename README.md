@@ -7,11 +7,12 @@ Or just look at the `homework.rb` file
 
 ## Terminal
 
-ls = list files + folders in directory
-mkdir = make folder / directory
-command + K = clear console
+* `ls` = list files + folders in directory
+* `mkdir` = make folder / directory
+* `command + K` = clear console
 
 Cheat Sheet
+
 https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
 
 ## Atom
@@ -22,30 +23,40 @@ Install shell commands by going to 'Atom' in top left menu and then selecting 'I
 
 We can output to the terminal using `puts`
 
+```ruby
   puts "Hello World"
+```
 
 We can assign values to variables using `=`
 
+```ruby
   message = "Hello World"
   puts message
+```
 
 Is a dynamic language meaning we can assign any value to any variables
 
+```ruby
   message = "Hello World"
   message = 35
+```
 
 An array is a collection of values you access using the index
 
+```ruby
   names = ["Kevin", "Kirk", "Astrid"]
   names[0] # Kevin
   names[2] # Astrid
+```
 
 A hash is a collection of values that you access using keys
 
+```ruby
   person = { :name => "Dwight", :age => 28, "favorite_movie" => "Hook" }
   person[:name] # "Dwight"
   person[:age] # 28
   person["favorite_movie"] # "Hook"
+```
 
 ## Github
 
@@ -59,4 +70,6 @@ Astrid Countee = AstridW
 Adam Bergen = abergen84
 Dwight Johnson = Dwightgnjohnson
 Jared Williams = wayjwilliams
+
 Thanh Nguyen = thanh8604
+https://gist.github.com/thanh8604/4559a0db45769b65c69f
