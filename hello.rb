@@ -40,6 +40,25 @@ grades.each do |grade|
 end
 puts "DONE"
 
+enders_game = {
+  :author => "Orson Scott Card",
+  :title => "Ender's Game"
+}
+
+hobbit = {
+  :author => "JRR Tolkien",
+  :title => "The Hobbit"
+}
+
+books = [enders_game, hobbit, {
+  :author => "The Final Empire",
+  :title => "Brandom Sanderson"
+}]
+
+
+
+
+
 
 
 
